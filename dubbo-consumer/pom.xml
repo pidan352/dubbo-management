@@ -13,7 +13,7 @@
 
     <dependencies>
         <dependency>
-            <artifactId>dubbo-management</artifactId>
+            <artifactId>dubbo-api</artifactId>
             <groupId>com.lyl</groupId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
