@@ -1,4 +1,4 @@
-package com.lyl.service.Impl;
+package com.lyl.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.lyl.service.UserService;

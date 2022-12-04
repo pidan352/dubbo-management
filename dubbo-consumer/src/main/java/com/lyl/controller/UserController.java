@@ -2,9 +2,9 @@ package com.lyl.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.lyl.service.UserService;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 功能：
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @date 2022/12/4
  */
 
-@Controller
+@RestController
 public class UserController {
 
 	@Reference
