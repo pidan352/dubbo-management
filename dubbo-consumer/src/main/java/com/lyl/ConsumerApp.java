@@ -1,8 +1,7 @@
 package com.lyl;
 
-import org.springframework.boot.WebApplicationType;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 
 /**
  * 功能：
@@ -15,6 +14,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 @SpringBootApplication
 public class ConsumerApp {
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(ConsumerApp.class).web(WebApplicationType.NONE).run(args);
+		SpringApplication.run(ConsumerApp.class, args);
 	}
 }
