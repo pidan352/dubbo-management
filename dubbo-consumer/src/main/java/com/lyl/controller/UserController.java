@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-	@Reference
+	@Reference//注入的是分布式中的远程服务对象。
 	private UserService userService;
 
 	@GetMapping("/getHello/{name}")
